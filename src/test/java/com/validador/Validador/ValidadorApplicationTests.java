@@ -20,7 +20,7 @@ class ValidadorApplicationTests {
 	@Test
 	@DisplayName("Quando um CPF inválido é passado, o valor precisa ser falso")
 	void paraValidarCpfInvalido() {
-		assertEquals(validarCpf("11111111111"), false);
+		assertEquals(validarCpf("111111113111"), false);
 	}
 
 	@Test
