@@ -6,3 +6,4 @@ docker build -t lucasvscosta/validador-cpf-turma-devops -f Dockerfile .
 
 #### Rodar imagem Docker e gravar localmente ####
 docker run -d -p 8081:8080 --name validador-cpf-turma-devops lucasvscosta/validador-cpf-turma-devops
+teste
