@@ -1,5 +1,5 @@
 #### Gerar Build  do Java ####
- ./mvnw package && java -jar target/validadorCPF.jar
+ ./mvnw package && java -jar target/Validador*.jar
 
 #### Gerar Build do Docker ####
 docker build -t lucasvscosta/validador-cpf-turma-devops -f Dockerfile .
